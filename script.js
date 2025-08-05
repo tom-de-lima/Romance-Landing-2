@@ -1,6 +1,7 @@
 /* script.js */
 document.getElementById("play-button").addEventListener("click", function () {
   var audio = document.getElementById("background-music")
+  audio.loop = true;
   audio.play()
   this.disabled = true // desabilita o botão após clique
 })
